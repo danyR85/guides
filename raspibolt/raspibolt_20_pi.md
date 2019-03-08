@@ -370,6 +370,11 @@ One of the best options to secure the SSH login is to completely disable the pas
 
 :warning: **Backup your SSH keys!** You will need to attach a screen and keyboard to your Pi if you lose it.
 
+### SSH Login with a hardware wallet (Optional)
+
+
+
+
 ### Increase your open files limit
 
 In case your RaspiBolt is swamped with internet requests (honest or malicious due to a DDoS attack), you will quickly encounter the `can't accept connection: too many open files` error. This is due to a limit on open files (representing individual tcp connections) that is set too low.
